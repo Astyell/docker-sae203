@@ -10,7 +10,7 @@ Pour installer docker, il faut vous rendre sur ce lien https://docs.docker.com/g
 
 ## Utilisation de docker 
 
-Pour découvrir les possibles utilisations de docker, nous avons commencé à regarder dans notre coin ainsi qu'à l'iade des TP les différentes utilisations que l'on pouvait en faire. 
+Pour découvrir les possibles utilisations de docker, nous avons commencé à regarder dans notre coin ainsi qu'à l'aide des TP les différentes utilisations que l'on pouvait en faire. 
 Au début, il était un peu compliqué d'appréhender le concept de docker mais avec un peu de pratique avec l'httpd, le php ou même juste ubuntu et debian nous avons compris comment nous pourrions à notre tour l'utiliser.
 
 
