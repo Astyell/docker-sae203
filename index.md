@@ -35,6 +35,9 @@ Elle a était fait en collaboration avec tout les membres de l'équipe et reflec
 
 ####**HTML**
 
+Nous avons deux page php, et deux fichier css associer.
+
+
 ####**PHP**
 
 
