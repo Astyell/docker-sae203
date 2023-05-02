@@ -13,5 +13,15 @@ Pour installer docker, il faut vous rendre sur ce lien https://docs.docker.com/g
 Pour découvrir les possibles utilisations de docker, nous avons commencé à regarder dans notre coin ainsi qu'à l'aide des TP les différentes utilisations que l'on pouvait en faire. 
 Au début, il était un peu compliqué d'appréhender le concept de docker mais avec un peu de pratique avec l'httpd, le php ou même juste ubuntu et debian nous avons compris comment nous pourrions à notre tour l'utiliser.
 
+## Notre projet de SAE
+
+Nous avons décidé de nous inspirer de certains jeux pour faire un "Trouvez ce pokémon !". Le but c'est de rentrer le nom d'un pokemon, le site va le comparer avec le pokémon du jour et donner les informations qui changent. C'est un peu comme un motus mais qu'avec les pokemons et leurs informations. 
+
+Pour cela, nous allons utiliser le langage de programmation PHP ainsi que du mySQL.
+
+### Base de données 
+
+
+
 
 
