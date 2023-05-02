@@ -20,6 +20,12 @@ Nous avons décidé de nous inspirer de certains jeux pour faire un "Trouvez ce 
 Pour cela, nous allons utiliser le langage de programmation PHP ainsi que du mySQL.
 
 ### Base de données 
+Pour créer notre site, nous avons utilisé une base de données.
+Pour que cette base de données soit accessible depuis notre site, nous avons 2 possibilités :
+    - heberger la BDD sur un serveur externe
+    - heberger la BDD sur la machine qui lance le conteneur
+
+Par soucis de familiariter, nous avons favoriser le serveur externe.
 
 
 
