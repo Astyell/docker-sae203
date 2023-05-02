@@ -25,7 +25,17 @@ Pour que cette base de données soit accessible depuis notre site, nous avons 2 
     - heberger la BDD sur un serveur externe
     - heberger la BDD sur la machine qui lance le conteneur
 
-Par soucis de familiariter, nous avons favoriser le serveur externe.
+Par soucis de familiariter, nous avons favoriser la machine qui lance le conteneur.
+
+Pour eviter une surcharge de données, cette base de données reference les pokemon de la première génération.
+Nous avons preferé le fait de séparé les fichier de créations et d'insertions pour des soucis de compréhension dans le groupe.
+Elle a était fait en collaboration avec tout les membres de l'équipe et reflechi pour plaire a tous.
+
+##**Le site internet**
+
+####**HTML**
+
+####**PHP**
 
 
 
