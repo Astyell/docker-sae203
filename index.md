@@ -31,16 +31,16 @@ Pour eviter une surcharge de données, cette base de données reference les poke
 Nous avons preferé le fait de séparé les fichier de créations et d'insertions pour des soucis de compréhension dans le groupe.
 Elle a était fait en collaboration avec tout les membres de l'équipe et reflechi pour plaire a tous.
 
-###Le site internet
+### Le site internet
 
 Pour crée ce site internet, nous avons utilisé de l'html et du csc, ainsi que du php.
 
-###HTML
+#### HTML
 
 la partie html est relié aux fichiers php.
 L'HTML est présent pour donner une éstétique au site ( alliés avec le css ) ainsi qu'une aisance dans la navigation.
 
-###PHP
+#### PHP
 
 Le php nous sert a questionner la base de données dans le site internet, afin d'assurer le bon fonctionnement du programme,
 Notamment grace a l'outils PDO.
