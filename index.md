@@ -25,7 +25,7 @@ Pour que cette base de données soit accessible depuis notre site, nous avons 2 
     - Héberger la base de données sur un serveur externe
     - Héberger la base de données sur la machine qui lance le conteneur
 
-Par soucis de familiarité, nous avons favoriser la machine qui lance le conteneur.
+Par soucis de familiarité, nous avons favoriser d'héberger la base de données localement.
 
 Pour éviter une surcharge de données, cette base de données référence les Pokémons de la première génération.
 Nous avons préféré le fait de séparé les fichier de créations et d'insertions pour des soucis de compréhension dans le groupe.
