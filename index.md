@@ -1,4 +1,4 @@
-# SAE 203
+# SAE 203 Groupe 9
 
 ## Installation de docker
 
