@@ -49,5 +49,8 @@ Notamment grâce a l'outils PDO. Cet outil nous permet d'avoir accès à notre b
 C'est en se bassant sur le php nous avons donc pu créer nos deux pages, la page du quizz et le Pokédex qui recense tous les Pokémons de notre base. 
 
 
+#### Images
 
+Nous avons essayer de créer des image de php-fpm, mysql, nginx, debian, cela nous à permit de créer des conteneurs avec ses images.
+Nous n'avons pas réussi a faire communiquer les différents conteneurs, malgrès l'utilisation d'un cargo.
 
