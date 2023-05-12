@@ -54,4 +54,4 @@ C'est en se bassant sur le php nous avons donc pu créer nos deux pages, la page
 Nous avions comme projet de créer des image de php-fpm, mysql, nginx, debian, cela nous à permit de créer des conteneurs avec ses images.
 Puis de faire communiquer les différents conteneurs, grace à l'utilisation d'un cargo.
 
-Malheureusement cela na pas fonctionner.
+Malheureusement cela na pas fonctionner. 
