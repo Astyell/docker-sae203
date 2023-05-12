@@ -61,4 +61,4 @@ Puis de faire communiquer les différents conteneurs, grace à l'utilisation d'u
 
 Malheureusement cela na pas fonctionner malgré des heures de recherche personnel et d'effort communs.
 
-Nous vous rendons donc ce projet, fini, mais sans réussite d'utilisation de docker.
+Nous vous rendons donc ce projet, fini, mais sans la réussite de l'utilisation de docker.
