@@ -38,12 +38,11 @@ Récuperer ensuite l'id du conteneur.
 
 `ocker --rm [id_conteneur]`
 
-S jamais ces options ne fonctionnes pas, ouvrez un nouvel invite de commande et réessayez
-
-durant l'exution de notre programme, nous vous souhaitons un bon jeu, et n'hésitez pas a consultez le résultats de la base de données situé sur  l'onglet "tableau pokemon"
+Si jamais ces options ne fonctionnes pas, ouvrez un nouvel invite de commande et réessayez.
+Durant l'exution de notre programme, nous vous souhaitons un bon jeu, et n'hésitez pas a consultez le résultats de la base de données situé sur  l'onglet "tableau pokemon"
 
 Pour des raisons de test, nous avons laisser le pokemon à trouver en haut gauche du site internet.
-Cela vous faciliteras les tests tout comme il cela nous les a simplifiés
+Cela vous faciliteras les tests tout comme il cela nous les a simplifiés.
 
 
 
