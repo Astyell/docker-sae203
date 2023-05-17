@@ -54,11 +54,10 @@ C'est en se bassant sur le php nous avons donc pu créer nos deux pages, la page
 Toute la partie technique fonctionne, et est disponible sur github.
 
 L'utilisation de docker en revanche, n'as pas été aussi simple.
-Les différents conteneurs ne voulaient se crée que selon leurs gré, Ceux qui voulaient se crée ne voulaient se relier, Et même si on arrivait toute les étapes ci-dessus, notre projet été rendu impraticable.
 
-Nous avions comme projet de créer des image de php-fpm, mysql, nginx, debian, cela nous à permit de créer des conteneurs avec ses images.
+Nous avions comme projet de créer des image de php, mysql, cela nous à permit de créer des conteneurs avec ses images. Puis nous avons en cours de route changer plusieurs fois de types de contenaires en rajoutant d'autres afin de faire coexister le tout.
 Puis de faire communiquer les différents conteneurs, grace à l'utilisation d'un cargo.
 
-Malheureusement cela na pas fonctionner malgré des heures de recherche personnel et d'effort communs.
+Finalement nous sommes revenus sur deux contenaires, un php pour faire tourner la partie site de notre jeu et un en sql (MySQL) pour faire la partie base de données des pokémons.
 
-Nous vous rendons donc ce projet, fini, mais sans la réussite de l'utilisation de docker.
+
