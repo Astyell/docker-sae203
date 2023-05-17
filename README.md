@@ -1,42 +1,44 @@
+# Quel est-ce pokémon ?
+
 Mesdames et messieurs, 
 bonjour et bienvenue dans ce premier projet docker.
 Aujourd'hui, nous avons crée un site s'inspirant du jeu "Who's that pokemon ?".
-Le principe est simple. Une ombre d'un pokemon apparaît et on doit deviner a quel pokemon elle appartient.
-Nous avons repris ce principe mais nous devons desormais devinez le pokemon en fonction en fonction de ses statistiques. 
+Le principe est simple. On doit deviner quel pokemon a été choisi aléatoire.
+Nous avons repris ce principe mais nous devons desormais devinez le pokemon en fonction de ses cractéristiques. 
+
+## Installation de docker
 
 Voici comment proceder a l'instalation :
 
-Dans un premier temps, recupérer les dossier depuis le github via un invite de commande.
+1 - Dans un premier temps, recupérer les dossiers depuis le github via un invite de commande.
 
 Dans cette invite de commande, mettez vous dans le fichier desirez.
+`git clone git@github.com:astyell/docker-sae203.git`
 
-git clone git@github.com:<votre_utilisateur>/docker-sae203.git
 
-Une fois les fichiers recupérer, vous pourrez lancer les fichiers 
+2 - Ensuite, ouvrez un terminal là où vous avez placer les fichiers télécharger précédemment.
 
-PKMN_creation.sql puis PKMN_insertion.sql
+Dans votre terminal, vous pourrez écrire la ligne de commande suivante :
+`docker-compose up --build`
 
-une fois cela fais, nous aurons besoin de mettre les fichiers pour le site sous conteneurs
+Cela vous permettra de créer les images MySQL et php de notre projet ainsi que votre premier contenaire !
 
-pour cela, il faudras executer la commande suivante : 
+3 - Vous rendre sur le site de notre projet
 
-$ docker  run -p 8080:8080 --name conteneur-php-groupe-09 --rm -v $(pwd):$(pwd) php:7.4-cli php -S 0.0.0.0:8080  $(pwd)/index.php
+Pour éviter tout problèmes quand aux différents ports, nous avons décidez de mettre notre projet sur le port `8800`.
+Pour vous rendre sur le site, tapez dans la barre de recherche de votre navigateur le lien suivant : `localhost:8800`
 
-vous pourrez ensuite acceder au site en tappant dans votre navigateur
+4 - Détruire le contenaire
 
-localhost:8080
+Tapez la commande suivante : `docker ps`
 
-Pour detruire le conteneur :
+Récuperer ensuite l'id du conteneur.
 
-docker ps
+`docker stop [id_conteneur]`
 
-recuperer ensuite l'id du conteneur
+`ocker --rm [id_conteneur]`
 
-docker stop [id_conteneur]
-
-docker --rm [id_conteneur]
-
-si jamais ces options ne fonctionnes pas, ouvrez un nouvel invite de commande et réessayez
+S jamais ces options ne fonctionnes pas, ouvrez un nouvel invite de commande et réessayez
 
 durant l'exution de notre programme, nous vous souhaitons un bon jeu, et n'hésitez pas a consultez le résultats de la base de données situé sur  l'onglet "tableau pokemon"
 
