@@ -1,4 +1,4 @@
-
-FROM php:7.0-apache
-COPY ./ /usr/local/apache2/
-RUN  index.php
+FROM php:latest 
+WORKDIR /var/www/html
+COPY index.php index.php
+EXPOSE 8800
